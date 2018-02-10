@@ -103,7 +103,7 @@ button:focus { outline: none; }
 }
 
 .header {
-    width: 1200px;
+    width: 825px;
     height: 700px;
     margin: 0 auto;
     background-image: url(images/background.png);
@@ -492,4 +492,323 @@ button:focus { outline: none; }
 
 .video-frame {
     margin-top: 50px;
+}
+
+#menu-button {
+    display: none;
+}
+
+#menu-modal {
+    position: fixed;
+    top: -1000px;
+    left: 0px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    overflow-y: hidden;
+    z-index: 100;
+}
+
+#menu-modal h2 {
+    float: left;
+    margin-left: 24px;
+    margin-top: 160px;
+    font-family: Roboto-Bold;
+    font-size: 11px;
+    letter-spacing: 2.4px;
+    color: #dfdfdf;
+}
+
+#cancel {
+    float: right;
+    margin-top: 24px;
+    margin-right: 24px;
+    opacity: .5;
+}
+
+#menu-modal ul {
+    width: 250px;
+    height: 400px;
+    float: left;
+    margin-top: 200px;
+    margin-left: -30px;
+}
+
+#menu-modal li {
+    width: 250px;
+    height: 70px;
+}
+
+#menu-modal li>a {
+    font-family: Roboto-Regular;
+    font-size: 24px;
+    letter-spacing: 1.8px;
+    color: #928f8f;
+    line-height: 70px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1254px) { 
+    
+    .hero-image {
+        width: 900px;
+        height: 580px; 
+        margin: 0 auto;  
+    }
+    
+    .hero-image img {
+        width: 900px;
+    }
+
+    .hol-sec {
+        width: 100%;
+        height: 470px;
+        background-color: none;
+        margin-top: -120px;  
+        text-align: center;
+        overflow-y: hidden;
+    }
+}
+
+@media screen and (max-width: 900px) { 
+    *{
+        transition: .2s;
+    }
+
+    #wrapper {
+        width: 100%;
+        height: 3010px;
+        overflow-y: hidden;
+    }
+
+    .hol-fir {
+        width: 100%;
+        overflow-y: hidden;
+        height: 650px;
+    }
+
+    .header {
+        width: 100%;
+        height: 650px;
+        margin: 0 auto;
+        background-image: url(images/background.png);
+        overflow-y: hidden;
+    }
+
+    #menu-button {
+        display: block;
+        position: absolute;
+        right: 40px;
+        top: 60px;
+        cursor: pointer;
+    }
+
+    .hero-image {
+        width: 1254px;
+        height: 580px; 
+        margin: 0 auto;  
+        display: none;
+    }
+
+    .navigation {
+        width: 100%;
+        height: 140px;
+        margin: 0 auto;
+    }  
+   
+    .logo {
+        margin-left: 40px;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: 580px; 
+        text-align: left;  
+    }
+
+    .hero-image img {
+        width: 660px;
+        margin: 0 auto;
+    }
+
+    .hol-sec {
+        height: 470px;
+        display: none;
+    }
+
+    .hero {
+        width: 100%;
+        height: 450px;
+        margin: 0 auto;
+        overflow-y: hidden;
+        text-align: center;
+    }
+
+    .hol-thi {
+        width: 100%;
+        height: 540px;
+        text-align: center;
+    }
+
+    .downloads {
+        width: 100%;
+        height: 540px;
+        margin: 0 auto;
+        overflow-y: hidden;
+    }
+
+    .download-left {
+        width: 100%;
+        height: 225px;
+        float: none;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .download-right {
+        width: 100%;
+        height: 255px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .download-box {
+        width: 255px;
+        height: 50px;
+        background: white;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    .download-box-img { margin-left: -20px; }
+    .download-box-title { margin-left: 10px; }
+    .normal-text { margin-left: 0px; padding-right: 15px; padding-left: 15px;}
+    .normal-title { margin-left: 0px; padding-right: 15px; padding-left: 15px;}
+    .ui-element { display: none; }
+    .hol-for { width: 100%;  height: 350px; }
+    .about { width: 370px; height:  350px; }
+    .elements-box { display: none; }
+
+    .hol-six {
+        width: 100%;
+        height: 690px;
+        background-color: none;
+    }
+
+    .video {
+        width: 100%;
+        height: 650px;
+        margin: 0 auto;
+        overflow-y: hidden;
+    }
+
+    iframe {
+        width: 98%;
+        margin-left: 1%;
+    }
+
+    .hol-fiv {
+        width: 100%;
+        height: 800px;
+        background-color: #f5f5f5;
+    }
+
+    .footer {
+        width: 100%;
+        height: 800px;
+        margin: 0 auto;
+        overflow-y: hidden;
+    }
+
+    .footer ul {
+        width: 100%;
+        height: 800px;
+    }
+
+    .footer ul>li { display: block;}
+
+    .footer ul>li {
+        display: block;
+    }
+
+    .footer ul>li:nth-child(1) {
+        width: 100%;
+        height: 300px;
+        text-align: center;
+    }
+
+    .footer ul>li:nth-child(2) {
+        width: 100%;
+        height: 150px;
+        text-align: center;
+    }
+
+    .footer ul>li:nth-child(3) {
+        width: 100%;
+        height: 320px;
+        text-align: center;
+    }
+
+    .text-wrapper {
+        width: 245px;
+        height: 140px;
+        margin-top: 60px;
+        margin: 0 auto;
+    }
+
+    .text-wrapper a {
+        font-family: Roboto-Regular;
+        font-size: 10px;
+        color: #a9a9a9;
+        letter-spacing: 1.4px;
+    }
+
+    .me-text {
+        font-family: Roboto-Regular;
+        font-size: 12px;
+        color: #a9a9a9;
+        letter-spacing: 1.4px;
+        float: none;
+        margin-top: 35px;
+        text-align: center;
+        line-height: 225%;
+    }
+
+    .crafted-by {
+        float: none;
+        font-family: Roboto-Light;
+        font-size: 12px;
+        color: #c3c3c3;
+        letter-spacing: 1.4px;
+        margin-top: 45px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .crafted-by span {
+        font-family: Roboto-Bold;
+        color: #2ecc71;
+    }
+
+    .text-wrapper a:nth-child(1){float: left; margin-left: 25px;}
+    .text-wrapper a:nth-child(2){float: right; margin-right: 35px;}
+    .text-wrapper a:nth-child(3){float: left; margin-left: 25px; margin-top: 24px;}
+    .text-wrapper a:nth-child(4){float: right; margin-right: 35px; margin-top: 24px;}
+    .text-wrapper a:nth-child(5){float: left; margin-left: 25px; margin-top: 24px;}
+    .text-wrapper a:nth-child(6){float: right; margin-right: 35px; margin-top: 24px;}
+    .text-wrapper a:nth-child(7){float: left; margin-left: 25px; margin-top: 24px;}
+    .text-wrapper a:nth-child(8){float: right; margin-right: 35px; margin-top: 24px;}
+
+    .title-sub {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .scroll { display: none } .scroll-text { display: none; }
+
 }

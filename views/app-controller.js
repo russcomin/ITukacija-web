@@ -33,3 +33,61 @@ let aplikacija = document.getElementById('aplikacija');
 		  behavior: 'smooth' 
 		});
 	}	
+
+let modal = document.getElementById('menu-modal');
+let cancel = document.getElementById('cancel');
+let wrapper = document.getElementById('wrapper');
+
+var elements = document.getElementsByTagName("*");
+
+let modal_btn = document.getElementById('menu-button');
+	modal_btn.addEventListener('click', openModal);
+
+	function openModal() {
+		modal.style.transition = '.4s';
+		modal.style.top = '0px';
+		wrapper.style.overflowX = "hidden";
+	}
+
+cancel.addEventListener('click', closeModal);
+
+	function closeModal() {
+		modal.style.transition = '.4s';
+		modal.style.top = '-1000px';
+	}	
+
+let pre = document.getElementById('pre-small');
+	pre.addEventListener('click', execute_small_pre);
+
+	function execute_small_pre() {
+		window.scroll({
+		  top: 600, 
+		  left: 0, 
+		  behavior: 'smooth' 
+		});
+		closeModal();
+	}
+
+let app = document.getElementById('app-small');
+	app.addEventListener('click', execute_app_small);
+
+	function execute_app_small() {
+		window.scroll({
+		  top: 1050, 
+		  left: 0, 
+		  behavior: 'smooth' 
+		});
+		closeModal();
+	}	
+
+let up = document.getElementById('up-small');
+	up.addEventListener('click', execute_up_small);
+
+	function execute_up_small() {
+		window.scroll({
+		  top: 1520, 
+		  left: 0, 
+		  behavior: 'smooth' 
+		});
+		closeModal();
+	}	
