@@ -97,4 +97,4 @@ let up = document.getElementById('up-small');
 let win64;
 
 	win64 = document.getElementById('win-64');
-	win64.addEventListener('click', function() { document.location = "https://www.dropbox.com/s/cu74vvy9o9mebe7/ITukacija.rar?dl=0"; })	
+	win64.addEventListener('click', function() { document.location = "https://www.dropbox.com/s/1zsfsdnxqwii1pr/ITukacija.rar?dl=0"; })	
