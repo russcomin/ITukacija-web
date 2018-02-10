@@ -44,7 +44,7 @@ let modal_btn = document.getElementById('menu-button');
 	modal_btn.addEventListener('click', openModal);
 
 	function openModal() {
-		modal.style.transition = '.4s';
+		modal.style.transition = '.9s';
 		modal.style.top = '0px';
 		wrapper.style.overflowX = "hidden";
 	}
@@ -52,8 +52,8 @@ let modal_btn = document.getElementById('menu-button');
 cancel.addEventListener('click', closeModal);
 
 	function closeModal() {
-		modal.style.transition = '.4s';
-		modal.style.top = '-1000px';
+		modal.style.transition = '.9s';
+		modal.style.top = '-2500px';
 	}	
 
 let pre = document.getElementById('pre-small');
@@ -90,4 +90,11 @@ let up = document.getElementById('up-small');
 		  behavior: 'smooth' 
 		});
 		closeModal();
-	}	
+	}
+
+//downloads 
+
+let win64;
+
+	win64 = document.getElementById('win-64');
+	win64.addEventListener('click', function() { document.location = "https://www.dropbox.com/s/cu74vvy9o9mebe7/ITukacija.rar?dl=0"; })	

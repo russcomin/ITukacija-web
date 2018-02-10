@@ -500,7 +500,7 @@ button:focus { outline: none; }
 
 #menu-modal {
     position: fixed;
-    top: -1000px;
+    top: -2500px;
     left: 0px;
     background-color: white;
     width: 100%;
@@ -525,6 +525,7 @@ button:focus { outline: none; }
     margin-top: 24px;
     margin-right: 24px;
     opacity: .5;
+    cursor: pointer;
 }
 
 #menu-modal ul {
@@ -691,7 +692,7 @@ button:focus { outline: none; }
     .normal-title { margin-left: 0px; padding-right: 15px; padding-left: 15px;}
     .ui-element { display: none; }
     .hol-for { width: 100%;  height: 350px; }
-    .about { width: 370px; height:  350px; }
+    .about { width: 336px; height:  350px; }
     .elements-box { display: none; }
 
     .hol-six {
