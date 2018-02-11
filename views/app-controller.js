@@ -1,7 +1,8 @@
 //window.scrollTo(500, 0);
 
 let button_start = document.getElementById('button-start');
-	button_start.addEventListener('click', executePrezuimanje);
+    button_start.addEventListener('click', executePrezuimanje);
+
 
 let preuzimanje = document.getElementById('preuzimanje');
 	preuzimanje.addEventListener('click', executePrezuimanje);
