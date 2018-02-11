@@ -98,7 +98,11 @@ let up = document.getElementById('up-small');
 
 //downloads 
 
-let win64;
+let win64,
+    win32;
 
 	win64 = document.getElementById('win-64');
 	win64.addEventListener('click', function() { document.location = "https://www.dropbox.com/s/1zsfsdnxqwii1pr/ITukacija.rar?dl=0"; })	
+
+	win32 = document.getElementById('win-32');
+	win32.addEventListener('click', function() { document.location = "https://www.dropbox.com/s/yjab9d0cdbwgdwk/ITukacija-32bit.rar?dl=0"; })	
